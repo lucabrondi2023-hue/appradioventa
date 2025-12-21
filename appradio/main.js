@@ -37,8 +37,7 @@ installBtn.addEventListener("click", () => {
 // ===== FONDOS ROTATIVOS =====
 const fondos = [
   "fondo1.jpg",
-  "fondo2.jpg",
-  "fondo3.jpg"
+  "fondo2.jpg"
 ];
 
 let fondoActual = 0;
@@ -77,3 +76,4 @@ function toggleMute() {
     muteBtn.innerHTML = '<i class="fas fa-volume-mute"></i>';
   }
 }
+
